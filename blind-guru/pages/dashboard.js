@@ -87,6 +87,7 @@ function dashboard() {
     speech.pause();
     setplay(false);
   };
+ 
   const playFunction = (idx) => {
     speech.resume();
     setplay(true);
@@ -115,10 +116,6 @@ function dashboard() {
     }
   };
 
-  const create = () => {
-    alert("this feature is not yet available");
-  };
-
   const SpeechRecognizer = () => {
     const commands = [
       {
@@ -129,15 +126,6 @@ function dashboard() {
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: 0.2,
       },
-      {
-        command: "create",
-        callback: () => {
-          create();
-        },
-        isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.2,
-      },
-      ,
       {
         command: "play",
         callback: () => {
