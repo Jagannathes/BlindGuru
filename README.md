@@ -1,6 +1,6 @@
 # Blind Guru 
 
-![Logo](https://github.com/Jagannathes/Blind-Guru-Web/blob/master/images/logo.png)
+![Logo](https://github.com/Jagannathes/BlindGuru/blob/master/images/logo.png)
 
 ## Live Demo
 
@@ -20,8 +20,8 @@ Developing A Web-App for blind people for helping them read Twitter Feeds.
 
 ## 🔧 Project UI:
 
-![Project Home](https://github.com/Jagannathes/Blind-Guru/blob/master/images/img.png)
-![Project Dashboard](https://github.com/Jagannathes/Blind-Guru/blob/master/images/img1.png)
+![Project Home](https://github.com/Jagannathes/BlindGuru/blob/master/images/img.png)
+![Project Dashboard](https://github.com/Jagannathes/BlindGuru/blob/master/images/img1.png)
 
 # Steps To Run the Project:
 
