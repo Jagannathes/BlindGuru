@@ -1,18 +1,14 @@
-# Blind Guru - Fin-eazy - Beach Hack 4
+# Blind Guru 
 
-![Logo](https://github.com/jaison080/Blind-Guru-Web/blob/master/images/logo.png)
+![Logo](https://github.com/Jagannathes/Blind-Guru-Web/blob/master/images/logo.png)
 
 ## Live Demo
 
 Link : http://blind-guru.netlify.app/
 
-## Team Details
-
-Team Name : <b>Fin-eazy</b>
-
 ## Project Description
 
-Developing A Web-App for blind people for helping them read SMS,Whatsapp Messages,Facebook Captions,Twitter Feeds,etc...
+Developing A Web-App for blind people for helping them read Twitter Feeds.
 
 ## Team Members:
 
@@ -24,14 +20,14 @@ Developing A Web-App for blind people for helping them read SMS,Whatsapp Message
 
 ## 🔧 Project UI:
 
-![Project Home](https://github.com/jaison080/Blind-Guru-Web/blob/master/images/img.png)
-![Project Dashboard](https://github.com/jaison080/Blind-Guru-Web/blob/master/images/img1.png)
+![Project Home](https://github.com/Jagannathes/Blind-Guru/blob/master/images/img.png)
+![Project Dashboard](https://github.com/Jagannathes/Blind-Guru/blob/master/images/img1.png)
 
 # Steps To Run the Project:
 
 ```bash
-git clone https://github.com/salmanpary/Blind-Guru-Web
-cd Blind-Guru-Web
+git clone https://github.com/Jagannathes/BlindGuru
+cd BlindGuru
 cd blind-guru
 npm install
 npm run dev
