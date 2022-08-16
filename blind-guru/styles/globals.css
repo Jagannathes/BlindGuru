@@ -1,0 +1,181 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --primary-font: 'Raleway', sans-serif;
+  --secondary-font: 'Work Sans';
+  --tertiary-font: 'Poppins';
+  --bg-color: #E6F4F4;
+  --primary-color: #0B8B8B;
+  --secondary-color: #3c9b9b;
+  --tertiary-color: #044d4d;
+  --text-card: #FFFFFF;
+  --text-main: #333333;
+}
+body{
+  background-color: rgb(169, 226, 207);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  
+}
+
+.container1 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container1::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.landing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(169, 226, 207);
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 82px;
+  letter-spacing: -0.02em;
+  align-items: center;
+  color: var(--primary-color);
+}
+.heading1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  align-items: center;
+  color: var(--primary-color);
+}
+.description {
+  overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-main);
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.login-btn {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  margin-top: 5%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: var(--tertiary-font);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.logout-btn {
+  background-color: var(--tertiary-color);
+  border-radius: 20px;
+  margin-top:5%;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-family: var(--tertiary-font);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.description {
+  margin-top: 5%;
+  font-family: var(--tertiary-font);
+
+}
+
+.player{
+  font-family: var(--tertiary-font) !important;
+  font-size: 20px !important;
+  font-weight:400 !important;
+  color: #FFFFFF;
+}
+
+
+.footer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 82px;
+  letter-spacing: -0.02em;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+
+
+
